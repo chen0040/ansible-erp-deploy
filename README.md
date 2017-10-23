@@ -64,6 +64,7 @@ You can also test whether the system is running by starting the angular server u
 sudo yum install -y nodejs
 sudo npm install -g @angular/cli
 cd devops/ng4-erp
+npm install
 ng serve --proxy-config proxy.conf.json --host 0.0.0.0 --disable-host-check --port 8080
 ```
 
