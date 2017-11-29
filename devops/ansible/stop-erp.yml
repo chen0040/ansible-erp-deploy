@@ -26,7 +26,6 @@
     ignore_errors: yes
 
 - hosts: app_admin_servers
-  remote_user: clef
   tags:
     - stop_slaves
   tasks:

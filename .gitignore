@@ -1,4 +1,4 @@
 *.iml
-/idea
+.idea/
 .vagrant
 devops/ng4-erp/node_modules
